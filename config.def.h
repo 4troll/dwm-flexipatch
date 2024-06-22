@@ -160,11 +160,11 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "monospace 10";
+static const char font[]                 = "JetBrains Mono Nerd Font:size=14";
 #else
-static const char *fonts[]               = { "monospace:size=10" };
+static const char *fonts[]               = { "JetBrains Mono Nerd Font:size=14" };
 #endif // BAR_PANGO_PATCH
-static const char dmenufont[]            = "monospace:size=10";
+static const char dmenufont[]       = "JetBrains Mono Nerd Font:size=14";
 
 static char c000000[]                    = "#000000"; // placeholder value
 
@@ -769,7 +769,7 @@ static const char *xkb_layouts[]  = {
 #endif // XKB_PATCH
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #if COMBO_PATCH && SWAPTAGS_PATCH && TAGOTHERMONITOR_PATCH
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      comboview,      {.ui = 1 << TAG} }, \
@@ -895,8 +895,11 @@ static const Key on_empty_keys[] = {
 };
 #endif // ON_EMPTY_KEYS_PATCH
 
+static const char *printcmd[] = {"flameshot", "gui", "-c", NULL };
+
 static const Key keys[] = {
 	/* modifier                     key            function                argument */
+	{ MODKEY,			XK_s,	   spawn,	   {.v = printcmd } },
 	#if KEYMODES_PATCH
 	{ MODKEY,                       XK_Escape,     setkeymode,             {.ui = COMMANDMODE} },
 	#endif // KEYMODES_PATCH
