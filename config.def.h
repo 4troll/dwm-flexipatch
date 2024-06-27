@@ -174,9 +174,9 @@ static char normbordercolor[]            = "#444444";
 static char normfloatcolor[]             = "#db8fd9";
 
 static char selfgcolor[]                 = "#eeeeee";
-static char selbgcolor[]                 = "#4CBB17"; // main col
-static char selbordercolor[]             = "#4CBB17";
-static char selfloatcolor[]              = "#4CBB17";
+static char selbgcolor[]                 = "#008000"; // main col
+static char selbordercolor[]             = "#008000";
+static char selfloatcolor[]              = "#008000";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#222222";
@@ -184,9 +184,9 @@ static char titlenormbordercolor[]       = "#444444";
 static char titlenormfloatcolor[]        = "#db8fd9";
 
 static char titleselfgcolor[]            = "#eeeeee";
-static char titleselbgcolor[]            = "#4CBB17";
-static char titleselbordercolor[]        = "#4CBB17";
-static char titleselfloatcolor[]         = "#4CBB17";
+static char titleselbgcolor[]            = "#008000";
+static char titleselbordercolor[]        = "#008000";
+static char titleselfloatcolor[]         = "#008000";
 
 static char tagsnormfgcolor[]            = "#bbbbbb";
 static char tagsnormbgcolor[]            = "#222222";
@@ -194,11 +194,11 @@ static char tagsnormbordercolor[]        = "#444444";
 static char tagsnormfloatcolor[]         = "#db8fd9";
 
 static char tagsselfgcolor[]             = "#eeeeee";
-static char tagsselbgcolor[]             = "#4CBB17";
-static char tagsselbordercolor[]         = "#4CBB17";
-static char tagsselfloatcolor[]          = "#4CBB17";
+static char tagsselbgcolor[]             = "#008000";
+static char tagsselbordercolor[]         = "#008000";
+static char tagsselfloatcolor[]          = "#008000";
 
-static char hidnormfgcolor[]             = "#4CBB17";
+static char hidnormfgcolor[]             = "#008000";
 static char hidselfgcolor[]              = "#227799";
 static char hidnormbgcolor[]             = "#222222";
 static char hidselbgcolor[]              = "#222222";
