@@ -130,7 +130,7 @@
  *
  * https://dwm.suckless.org/patches/tag-previews/
  */
-#define BAR_TAGPREVIEW_PATCH 0
+#define BAR_TAGPREVIEW_PATCH 1
 
 /* Show status in bar */
 #define BAR_STATUS_PATCH 1
@@ -198,7 +198,7 @@
  * https://github.com/AdamYuan/dwm-winicon
  * https://dwm.suckless.org/patches/winicon
  */
-#define BAR_WINICON_PATCH 0
+#define BAR_WINICON_PATCH 1
 
 /* Show window title in bar */
 #define BAR_WINTITLE_PATCH 1
@@ -249,7 +249,7 @@
  * when including this patch.
  * https://dwm.suckless.org/patches/alpha/
  */
-#define BAR_ALPHA_PATCH 0
+#define BAR_ALPHA_PATCH 1
 
 /* This patch introduces alternative tags which can be switched on the fly for the
  * sole purpose of providing visual aid.
@@ -367,7 +367,7 @@
  * toggled in unison when vanitygaps are toggled. Increasing or decreasing gaps during runtime
  * will not affect the bar padding.
  */
-#define BAR_PADDING_VANITYGAPS_PATCH 0
+#define BAR_PADDING_VANITYGAPS_PATCH 1
 
 /* Smart bar padding patch that automatically adjusts the padding when there is
  * only one client on the monitor. Works well with vanitygaps and barpadding
@@ -983,7 +983,7 @@
  * Additionally dwm can quit cleanly by using kill -TERM dwmpid.
  * https://dwm.suckless.org/patches/restartsig/
  */
-#define RESTARTSIG_PATCH 0
+#define RESTARTSIG_PATCH 1
 
 /* Adds rio-like drawing to resize the selected client.
  * This depends on an external tool slop being installed.
@@ -1002,7 +1002,7 @@
  * when including this patch. You will also want to set "borderpx = 0;" in your config.h.
  * https://github.com/mitchweaver/suckless/blob/master/dwm/patches/mitch-06-rounded_corners-f04cac6d6e39cd9e3fc4fae526e3d1e8df5e34b2.patch
  */
-#define ROUNDED_CORNERS_PATCH 0
+#define ROUNDED_CORNERS_PATCH 1
 
 /* This patch saves size and position of every floating window before it is forced
  * into tiled mode. If the window is made floating again then the old dimensions
@@ -1168,7 +1168,7 @@
  *
  * https://github.com/bakkeby/patches/wiki/steam
  */
-#define STEAM_PATCH 0
+#define STEAM_PATCH 1
 
 /* Adds toggleable keyboard shortcut to make a client 'sticky', i.e. visible on all tags.
  * https://dwm.suckless.org/patches/sticky/

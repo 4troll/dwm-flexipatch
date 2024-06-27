@@ -160,11 +160,11 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "JetBrains Mono Regular:size=14";
+static const char font[]                 = "JetBrains Mono Regular:size=16";
 #else
-static const char *fonts[]               = { "JetBrains Mono Regular:size=14" };
+static const char *fonts[]               = { "JetBrains Mono Regular:size=16" };
 #endif // BAR_PANGO_PATCH
-static const char dmenufont[]       = "JetBrains Mono Regular:size=14";
+static const char dmenufont[]       = "JetBrains Mono Regular:size=16";
 
 static char c000000[]                    = "#000000"; // placeholder value
 
